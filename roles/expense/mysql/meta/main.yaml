@@ -1,0 +1,4 @@
+dependencies:
+# mysql is dependent on common
+- role: common
+

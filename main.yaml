@@ -1,0 +1,6 @@
+- name: Expense on roles
+  hosts: local
+  connection: local
+  roles:
+  - expense
+
