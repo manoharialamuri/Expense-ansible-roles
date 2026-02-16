@@ -1,6 +1,5 @@
-- name: install mysql
+- name: install {{ component }}
   ansible.builtin.dnf:
-    name: mysql-server
+    name: "{{ component }}-server"
     state: present
 
-    
